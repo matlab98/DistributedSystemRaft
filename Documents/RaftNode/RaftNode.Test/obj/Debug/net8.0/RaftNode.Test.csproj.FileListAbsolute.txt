@@ -1,0 +1,5 @@
+C:\Users\hilde\Documents\RaftNode\RaftNode.Test\obj\Debug\net8.0\RaftNode.Test.csproj.AssemblyReference.cache
+C:\Users\hilde\Documents\RaftNode\RaftNode.Test\obj\Debug\net8.0\RaftNode.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hilde\Documents\RaftNode\RaftNode.Test\obj\Debug\net8.0\RaftNode.Test.AssemblyInfoInputs.cache
+C:\Users\hilde\Documents\RaftNode\RaftNode.Test\obj\Debug\net8.0\RaftNode.Test.AssemblyInfo.cs
+C:\Users\hilde\Documents\RaftNode\RaftNode.Test\obj\Debug\net8.0\RaftNode.Test.csproj.CoreCompileInputs.cache
