@@ -39,6 +39,11 @@ Cada comando inicia un nodo en un puerto diferente (3262, 3263 y 3264). Puedes m
 - **GET /api/raft/value** → Obtiene el valor almacenado en el nodo actual.
 - **GET /api/raft/leader** → Redirige al líder del clúster si el nodo no es el líder.
 
+- # Verificar el líder
+>> curl http://localhost:3262/api/raft/leader
+>> curl http://localhost:3263/api/raft/leader
+>> curl http://localhost:3264/api/raft/leader
+
 ## Manejo de Fallos y Particiones de Red
 El sistema detecta y maneja automáticamente la desconexión de nodos y cambios en la estructura del clúster:
 1. Si un nodo se desconecta, los demás siguen funcionando y el clúster intenta reelegir un líder si es necesario.
