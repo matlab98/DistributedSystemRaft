@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftNode", "RaftNode.csproj", "{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftNodeTests", "..\RaftNodeTests\RaftNodeTests.csproj", "{CE0F0E57-4632-4432-91F0-5EA28CA6160C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0F0E57-4632-4432-91F0-5EA28CA6160C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0F0E57-4632-4432-91F0-5EA28CA6160C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0F0E57-4632-4432-91F0-5EA28CA6160C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0F0E57-4632-4432-91F0-5EA28CA6160C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

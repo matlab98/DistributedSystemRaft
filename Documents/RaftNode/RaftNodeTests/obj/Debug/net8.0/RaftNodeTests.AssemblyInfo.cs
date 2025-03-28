@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RaftNode")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RaftNodeTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("5.17.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("5.17.0+57d3dfbf7c24808c974ef147d173676c76f609e3")]
-[assembly: System.Reflection.AssemblyProductAttribute("RaftNode")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RaftNode")]
-[assembly: System.Reflection.AssemblyVersionAttribute("5.17.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57d3dfbf7c24808c974ef147d173676c76f609e3")]
+[assembly: System.Reflection.AssemblyProductAttribute("RaftNodeTests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RaftNodeTests")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

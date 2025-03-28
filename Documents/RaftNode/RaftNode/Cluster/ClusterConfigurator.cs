@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using DotNext.Net.Cluster;
 using DotNext.Net.Cluster.Consensus.Raft;
 
@@ -18,9 +16,9 @@ namespace RaftNode.Cluster
             var timeout = ((IRaftCluster)cluster).ElectionTimeout;
 
             Console.WriteLine(leader is null
-                ? "❌ No se puede alcanzar consenso"
-                : $"✅ Nuevo líder del clúster elegido. Dirección: {leader.EndPoint}");
-            Console.WriteLine($"📌 Término actual: {term} | Tiempo de elección: {timeout}");
+                ? "❌ No consensus can be reachedo"
+                : $"✅ New cluster leader elected. Address: {leader.EndPoint}");
+            Console.WriteLine($"📌 Current: {term} | time: {timeout}");
         }
 
         /// <summary>
@@ -29,7 +27,7 @@ namespace RaftNode.Cluster
         public void OnStart(IRaftCluster cluster, IDictionary<string, string> metadata)
         {
             cluster.LeaderChanged += LeaderChanged;
-            Console.WriteLine("🚀 Nodo Raft iniciado y escuchando cambios de líder.");
+            Console.WriteLine("🚀 Raft node started and listening for leader changes.");
         }
 
         /// <summary>
@@ -38,7 +36,7 @@ namespace RaftNode.Cluster
         public void OnStop(IRaftCluster cluster)
         {
             cluster.LeaderChanged -= LeaderChanged;
-            Console.WriteLine("⏹️ Nodo Raft detenido.");
+            Console.WriteLine("⏹️ Raft node stopped.");
         }
     }
 }

@@ -1,18 +1,11 @@
 ﻿using RaftNode.Cluster;
 using RaftNode.Services;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using DotNext.Net.Cluster.Consensus.Raft.Http;
 using DotNext.Net.Cluster.Consensus.Raft;
 using DotNext;
 using RaftNode;
 using RaftNode.Infrastructure;
+using RaftNode.Configuration;
 
 var port = args.Length > 0 ? int.Parse(args[0]) : 5000;
 var persistentStorage = args.Length > 1 ? args[1] : null;
@@ -45,11 +38,7 @@ static async Task StartNode(int port, string? persistentStorage = null)
         .UseInMemoryConfigurationStorage(ClusterMembership.AddClusterMembers)
         .ConfigureCluster<ClusterConfigurator>()
         .AddSingleton<IHttpMessageHandlerFactory, RaftClientHandlerFactory>()
-        .AddLogging(logging =>
-        {
-            logging.AddConsole();
-            logging.SetMinimumLevel(LogLevel.Debug);
-        })
+        .ConfigureLogging()
         .AddControllers()
     .AddJsonOptions(options =>
     {
@@ -59,8 +48,7 @@ static async Task StartNode(int port, string? persistentStorage = null)
 
     if (!string.IsNullOrWhiteSpace(persistentStorage))
     {
-        builder.Services.UsePersistenceEngine<ISupplier<long>, SimplePersistentState>()
-            .AddSingleton<IHostedService, DataModifier>();
+        builder.Services.ConfigurePersistence();
     }
     builder.Services.AddSingleton<ISupplier<long>>(provider =>
     {

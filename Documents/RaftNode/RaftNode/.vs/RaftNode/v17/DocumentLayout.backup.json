@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hilde\\Documents\\RaftNode\\RaftNode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0F0E57-4632-4432-91F0-5EA28CA6160C}|..\\RaftNodeTests\\RaftNodeTests.csproj|c:\\users\\hilde\\documents\\raftnode\\raftnodetests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}|RaftNode.csproj|c:\\users\\hilde\\documents\\raftnode\\raftnode\\presentation\\raftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEFCA09-B26F-1E24-B4C6-AB3D9597D22A}|RaftNode.csproj|solutionrelative:presentation\\raftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\hilde\\Documents\\RaftNode\\RaftNodeTests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\RaftNodeTests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\hilde\\Documents\\RaftNode\\RaftNodeTests\\MSTestSettings.cs",
+              "RelativeToolTip": "..\\RaftNodeTests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:54:09.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RaftController.cs",
+              "DocumentMoniker": "C:\\Users\\hilde\\Documents\\RaftNode\\RaftNode\\Presentation\\RaftController.cs",
+              "RelativeDocumentMoniker": "Presentation\\RaftController.cs",
+              "ToolTip": "C:\\Users\\hilde\\Documents\\RaftNode\\RaftNode\\Presentation\\RaftController.cs",
+              "RelativeToolTip": "Presentation\\RaftController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:47:55.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

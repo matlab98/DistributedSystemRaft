@@ -22,5 +22,10 @@
     <PackageReference Include="DotNext.Net.Cluster" Version="5.17.0" />
     <PackageReference Include="DotNext.Threading" Version="5.17.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
