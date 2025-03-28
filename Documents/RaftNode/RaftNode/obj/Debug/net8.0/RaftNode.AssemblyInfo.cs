@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RaftNode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("5.17.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("5.17.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("5.17.0+41bcb54f87e11d582b58e3721f2d822cfb32a39f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RaftNode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RaftNode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("5.17.0.0")]

@@ -48,4 +48,4 @@ C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\refint\RaftNode.dll
 C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\RaftNode.pdb
 C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\RaftNode.genruntimeconfig.cache
 C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\ref\RaftNode.dll
-C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\hilde\Documents\RaftNode\RaftNode\obj\Debug\net8.0\RaftNode.sourcelink.json
